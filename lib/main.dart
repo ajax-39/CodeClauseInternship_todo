@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import './providers/task.dart';
-import './screens/homepage.dart';
+import 'task.dart';
+import 'homepage.dart';
 
 void main() => runApp(const ToDoListApp());
 

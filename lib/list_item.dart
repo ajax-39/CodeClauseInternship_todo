@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../providers/task.dart';
-import '../widgets/add_new_task.dart';
-import './item_text.dart';
+import 'task.dart';
+import 'add_new_task.dart';
+import 'item_text.dart';
 
 class ListItem extends StatefulWidget {
   final Task task;
