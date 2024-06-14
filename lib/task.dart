@@ -1,8 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-// Everything the user adds to the list is a task.
-// Task provider is self-explanatory and its job is being the provider for the project.
+
 
 class Task {
   final String id;

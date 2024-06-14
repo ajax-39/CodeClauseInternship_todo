@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-// This widget displays the text inside a ListItem.
-// It shows the due date and due time if they exist.
-
 class ItemText extends StatelessWidget {
   final bool check;
   final String text;
@@ -71,12 +68,10 @@ class ItemText extends StatelessWidget {
           _buildTimeText(context),
         ],
       );
-    }
-    // Check if only dueDate is provided
-    else if (dueDate != null) {
+    } else if (dueDate != null) {
       return _buildDateText(context);
     }
-    // Return an empty container if neither is provided
+
     return Container();
   }
 
